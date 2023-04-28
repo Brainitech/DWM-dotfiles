@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-polybar &
+polybar --config=.config/polybar/config.ini main &
 

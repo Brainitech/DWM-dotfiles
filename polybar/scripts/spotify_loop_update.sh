@@ -26,4 +26,6 @@ while true; do
     elif [[ "$lstatus" == "" ]]; then
         lupdate_hooks "$PARENT_BAR_PID" 4
     fi
+
+    sleep 1
 done

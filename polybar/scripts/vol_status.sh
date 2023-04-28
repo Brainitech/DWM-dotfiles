@@ -18,8 +18,8 @@ while true; do
         :
     else
         percentage=$(echo "$vol_status" | awk '{print $1}')  # Extract the percentage value using awk
-        percentage=${percentage%\%}  # Remove the percentage sign
-        vstatus=$((percentage))  # Convert to an integer using arithmetic expansion
+        perc=${percentage%\%}  # Remove the percentage sign
+        vstatus=$((perc))  # Convert to an integer using arithmetic expansion
         
         # Update hooks based on volume level
         if [[ "$vstatus" -ge 95 ]]; then
@@ -30,5 +30,7 @@ while true; do
             vupdate_hooks "$PARENT_BAR_PID" 3
         fi
     fi
+
+    sleep 1
     
 done
