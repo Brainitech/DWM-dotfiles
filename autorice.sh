@@ -6,7 +6,7 @@ sudo pacman -Syu
 
 echo "Installing Dependencies"
 
-sudo pacman -S alacritty xorg lightdm lightdm-gtk-greeter linux linux-headers linux-firmware base-devel base pulseaudio pavucontrol flameshot rofi polybar code firefox cmake make nitrogen network-manager-applet notification-daemon plymouth thunar libreoffice-still vlc yajl
+sudo pacman -S alacritty xorg lightdm lightdm-gtk-greeter linux linux-headers linux-firmware base-devel base pulseaudio pavucontrol flameshot rofi code firefox cmake make nitrogen network-manager-applet notification-daemon plymouth thunar libreoffice-still vlc yajl
 
 echo "Installing AUR helper"
 
@@ -17,7 +17,7 @@ cd yay-git
 makepkg -si
 
 sudo yay -Syu
-yay -S nerd-fonts-git zscroll-git cava cmatrix-git plymouth-theme-arch-logo-new
+yay -S nerd-fonts-git zscroll-git cava cmatrix-git plymouth-theme-arch-logo-new polybar-dwm-module picom-animations-git
 
 echo "Copying configs"
 
