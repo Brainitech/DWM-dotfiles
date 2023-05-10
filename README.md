@@ -8,8 +8,6 @@ Before you begin, make sure you have the following installed on your system:
 
 - Arch Linux (or a compatible distribution)
 - Git (to clone the repository)
-- DWM (to use this configuration)
-- Polybar (to use the custom status bar)
 
 ## Installation
 
