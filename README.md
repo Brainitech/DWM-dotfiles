@@ -23,7 +23,7 @@ To install this configuration, follow these steps:
 2. Make the autorice.sh file executable in Bash:
 
    ```bash
-   cd your-repo
+   cd DWM-dotfiles
    chmod +x autorice.sh
    
 3. Run autorice.sh as sudo:
