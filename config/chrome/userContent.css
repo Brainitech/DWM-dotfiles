@@ -1,0 +1,3 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) { .click-target-container *, .top-sites-list * { color: #fff !important ; text-shadow: 2px 2px 2px #000 !important ; }
+
+body { background: url(/usr/share/pixmaps/omer-tunc-wolverin-copy.jpg) !important ; background-size: cover !important ; } }

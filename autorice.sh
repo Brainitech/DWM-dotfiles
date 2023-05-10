@@ -34,6 +34,10 @@ chmod +x build.sh
 bash build.sh
 cd ..
 sudo make install
+sudo cp ~/.config/polybar/scripts/dmenu_running_apps /usr/bin/chwin
+sudo chmod +x /usr/bin/chwin
+sudo cp ~/.config/low_battery.sh /usr/bin/batterycheck
+sudo chmod +x /usr/bin/batterycheck
 
 
 echo "Making display Manager"
@@ -44,7 +48,6 @@ cp -R ~/DWM-autorice/plymouth/. /etc/plymouth
 
 echo "setting wallpaper"
 cp -R ~/DWM-autorice/wallpapers/. /usr/share/pixmaps
-nitrogen --auto-set /usr/share/pixmaps/omer-tunc-wolverin-copy.jpg
 
 cd ~/.config/polybar
 chmod +x launch.sh
