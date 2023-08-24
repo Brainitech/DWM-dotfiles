@@ -1,0 +1,109 @@
+* {
+  accent:           #2e86c1 ;
+  background:       #154360 ;
+  background-text:  #00000000;
+  background-alt:   #595959;
+  foreground:       #009dd6;
+  foreground-alt:   #ffffff;
+  on:               #66bb6a;
+  off:              #ef5350;
+}
+
+* {
+  /* General */
+  
+  option-6-listview-spacing:            10px;
+  menu-window-padding:                  5px 5px;
+  menu-element-padding:                 3px 0px 3px 3px;
+}
+
+#window {
+  width: 2.8%;
+  height: 25%;
+  location: west;
+  x-offset: 0px;
+  y-offset: -33.5%;
+  border: 0px;
+  border-radius: 20%;
+}
+
+* {
+  background-color: @background;
+  text-color: @foreground;
+  font: @icon-font;
+}
+
+#horibox {
+  children: [ listview ];
+}
+
+#listview {
+  cycle: true;
+  spacing: 12.5%;
+  dynamic: true;
+  layout: vertical;
+}
+
+#element {
+  orientation: horizontal;
+  border: 0px;
+  border-radius: 50%;
+  background-color: @background-alt;
+}
+
+element-text{
+  background-color: @background-text;
+  text-color: inherit;
+  font: "SpaceMono Nerd Font 28";
+  margin: -10px 3px -10px 3px;
+}
+
+element-icon {
+    size: 65px;
+    border: 0px;
+}
+
+element.selected {
+  background-color: @accent;
+  text-color: @foreground-alt;
+}
+
+* {
+  font: @text-font;
+}
+
+#window {
+  padding: @menu-window-padding;
+  children: [ horibox ];
+}
+
+listview {
+  spacing: @option-6-listview-spacing;
+  lines: 6;
+}
+
+element {
+  font: @icon-font;
+  border: @menu-element-border;
+  padding: @menu-element-padding;
+  border-color: @background-alt;
+}
+
+element.active,
+element.selected.urgent {
+  background-color: @off;
+  text-color: @foreground-alt;
+  border-color: @on;
+}
+
+element.selected.urgent {
+  border-color: @accent;
+  text-color: @foreground-alt;
+}
+
+element.urgent,
+element.selected.active {
+  background-color: @off;
+  border-color: @accent;
+  text-color: @foreground-alt;
+}
