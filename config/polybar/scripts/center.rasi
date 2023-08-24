@@ -1,8 +1,0 @@
-#window {
-  width: 25%;
-  height: 95%;
-  location: east;
-  x-offset: 0px;
-  y-offset: 2%;
-  radius: 1%;
-}
