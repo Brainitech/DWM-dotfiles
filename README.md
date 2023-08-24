@@ -9,29 +9,6 @@ Before you begin, make sure you have the following installed on your system:
 - Arch Linux (or a compatible distribution)
 - Git (to clone the repository)
 
-## Installation
-
-To install this configuration, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Brainitech/DWM-dotfiles  
-
-2. Make the autorice.sh file executable in Bash:
-
-   ```bash
-   cd DWM-dotfiles
-   chmod +x autorice.sh
-   
-3. Run autorice.sh as sudo:
-
-   ```bash
-
-   sudo ./autorice.sh
-
-This script will automatically install the necessary packages, copy the configuration files to the appropriate locations, and restart DWM and Polybar to apply the changes.
-
 ## Customization
 
 Feel free to customize this configuration to suit your needs. You can modify the config.h and config.mk files in the dwm directory to change DWM's behavior, and edit the config file in the polybar directory to change the appearance and behavior of the status bar.
