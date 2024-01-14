@@ -16,9 +16,9 @@ Feel free to customize this configuration to suit your needs. You can modify the
 ## License
 
 This configuration is licensed under the MIT License, so you are free to use and modify it for personal or commercial purposes. However, please note that the author does not provide any warranty or support for this configuration, so use it at your own risk.
-Credits
+Brainitech
 
-This configuration is based on the suckless.org philosophy of minimalism and simplicity. It was created by Your Name, inspired by various other DWM and Polybar configurations found on the internet.
+This configuration is based on the suckless.org philosophy of minimalism and simplicity. It was created by Brainitech, inspired by various other DWM and Polybar configurations found on the internet.
 
 If you have any questions or suggestions, feel free to contact the author or submit a pull request. Thank you for using this configuration!
 
